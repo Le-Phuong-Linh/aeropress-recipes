@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+a {
+    margin-right: 5px;
+}
+
+body {
+    background-image: url(./background-img.jpg);
+    background-size: 100%;
+}
+
+figcaption {
+    position: absolute;
+}
+
+header {
+    display: flex;
+    font-family: 'Blinker', sans-serif;
+    letter-spacing: 0.2rem;
+    font-size: large;
+    width: fit-content;
+    margin: auto auto;
+}
+
+main {
+    display: grid;
+}
+
+#title {
+    color: white;
+    background-color: black;
+    opacity: 80%;
+    text-align: center;
+    display: flex;
+    padding: 1.5rem 3rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30%;
+}
+
+#barista-description {
+    margin-right: 5px;
+    background-color: #EC9EC0;
+    opacity: 75%;
+    padding: 2rem 3rem;
+    color: white;
+    border-radius: 50%;
+    font-family: 'Blinker', sans-serif;
+}
+
+.aeropress-title {
+    font-family: 'Pacifico', cursive;
+    font-size: 3.5rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    transform: rotate(-7deg);
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.aeropress-title:hover {
+    color: #EC9EC0;
+    transition: 0.3s;
+}
+
+.barista {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.barista * {
+    position: relative;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+}
+
+.barista-photo {
+    width: 15vw;
+    height: 15vw;
+    object-fit: cover;
+    border-radius: 100%;
+    stop-opacity: initial;
+}
+
+.video {
+    grid-column: 1 / 1;
+}
