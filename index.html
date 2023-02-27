@@ -14,51 +14,53 @@
     />
   </head>
   <body>
+
     <header>
       <h1 id="title">
         Get Your<button class="aeropress-title"><u>Aeropress</u></button>Recipe
         for Today
       </h1>
     </header>
+    </div>
 
     <main>
-      <div class="barista">
-        <span id="barista-description">
+      <div class="column left">
+        <div class="barista">
           <a
-          id="barista-link"
-          href="https://en.wikipedia.org/wiki/James_Hoffmann"
-        >
-          <img
-            class="barista-photo"
-            src="https://images.squarespace-cdn.com/content/v1/5d39c0ab87164d000167b2e2/1600945711706-RICUCBD9HQ9PEWESXJ8E/_DSC4757.jpg"
-          />
-        </a>
-          <h3 id="barista-description name">James Hoffmann</h3>
-          <p id="barista-description title">World Barista Champion 2007</p>
-        </span>
+              id="barista-link"
+              href="https://en.wikipedia.org/wiki/James_Hoffmann"
+            >
+            <img
+                class="barista-photo"
+                src="https://images.squarespace-cdn.com/content/v1/5d39c0ab87164d000167b2e2/1600945711706-RICUCBD9HQ9PEWESXJ8E/_DSC4757.jpg"
+              />
+            <h3 id="barista-name">James Hoffmann</h3>
+            <p id="barista-title">World Barista Champion 2007</p>
+          </a>
+        </div>
       </div>
 
-      <div id="video">
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/mazSs3E_cwY"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-        ></iframe>
+      <div class="column right">
+        <div id="video">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/mazSs3E_cwY"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </div>
+      <div class="text-background">
+        <div id="video_description">
+          Use water that is pretty much right off the boil. Use a grind that is
+          slightly coarser than espresso, but finer than drip (James describes it
+          as between powdered sugar and salt).
+        </div>
       </div>
-
-      <div id="video_description">
-        Use water that is pretty much right off the boil. Use a grind that is
-        slightly coarser than espresso, but finer than drip (James describes it
-        as between powdered sugar and salt).
-      </div>
-
-      <button>Try the Recipe!</button>
-    </main>
-
+      </main>
+      <button class="try">Try the Recipe!</button>
     <script src="app.js"></script>
   </body>
 </html>

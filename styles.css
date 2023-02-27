@@ -5,10 +5,6 @@
     overflow: hidden;
 }
 
-a {
-    margin-right: 5px;
-}
-
 body {
     background-image: url(./background-img.jpg);
     background-size: 100%;
@@ -27,10 +23,6 @@ header {
     margin: auto auto;
 }
 
-main {
-    display: grid;
-}
-
 #title {
     color: white;
     background-color: black;
@@ -41,16 +33,6 @@ main {
     justify-content: center;
     align-items: center;
     border-radius: 30%;
-}
-
-#barista-description {
-    margin-right: 5px;
-    background-color: #EC9EC0;
-    opacity: 75%;
-    padding: 2rem 3rem;
-    color: white;
-    border-radius: 50%;
-    font-family: 'Blinker', sans-serif;
 }
 
 .aeropress-title {
@@ -69,26 +51,69 @@ main {
     transition: 0.3s;
 }
 
-.barista {
-    display: flex;
-    justify-content: flex-end;
+main {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    column-gap: 2rem;
+    margin-top: 4rem;
+    margin: auto auto;
+    font-family: 'Blinker', sans-serif;
+    font-weight: 50;
+    min-width: 1400px;
 }
 
-.barista * {
-    position: relative;
-    margin-top: auto;
-    margin-bottom: auto;
-    text-align: center;
+a {
+    margin-right: 5px;
+}
+
+.column {
+    margin: auto 5rem;
+}
+
+.barista {
+    margin-left: 2rem;
 }
 
 .barista-photo {
-    width: 15vw;
-    height: 15vw;
-    object-fit: cover;
-    border-radius: 100%;
-    stop-opacity: initial;
+    max-width: 300px;
+    border-radius: 50%;
 }
 
-.video {
-    grid-column: 1 / 1;
+#barista-name, #barista-title {
+    background-color: #EC9EC0;
+    color: white;
+    text-align: center;
+    border-radius: 7px;
+    max-width: 300px;
+}
+
+.column .right {
+    margin-right: 200px;
+}
+
+#video {
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+}
+
+#video_description {
+    color: white;
+    text-align: center;
+    width: 540px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0.5rem;
+    background-color: #454545;
+    padding: 10px;
+}
+
+
+.try {
+    border-radius: 10px;
+    background-color: #EA4C89;
+    color: white;
+    border: none;
+    width: 200px;
+    height: 100px;
+    font-size: 22px;
+    margin-left: 150px;
 }
