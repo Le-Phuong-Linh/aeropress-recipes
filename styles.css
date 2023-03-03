@@ -6,7 +6,7 @@
 }
 
 body {
-    background-image: url(./background-img.jpg);
+    background-image: url(./img/background-img.jpg);
     background-size: 100%;
 }
 
@@ -74,9 +74,22 @@ a {
     margin-left: 2rem;
 }
 
-.barista-photo {
-    max-width: 300px;
+.photo-container {
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.photo-container:hover {
+    transform: scale(0.9);
+}
+
+
+.barista-photo {
+    width: 300px;
+    max-height: 300px;
 }
 
 #barista-name, #barista-title {
@@ -116,4 +129,9 @@ a {
     height: 100px;
     font-size: 22px;
     margin-left: 150px;
+}
+
+.try:hover {
+    transform: scale(0.9);
+    cursor: pointer;
 }
