@@ -5,7 +5,7 @@ const recipes = [
       title: "World Barista Champion 2007",
       img: "img/hoffmann.png",
       video:
-        "https://www.youtube.com/watch?v=mazSs3E_cwY",
+        "https://www.youtube.com/embed/mazSs3E_cwY",
       text:
         "Use water that is pretty much right off the boil. Use a grind that is slightly coarser than espresso, but finer than drip (James describes it as between powdered sugar and salt).",
     },
@@ -15,7 +15,7 @@ const recipes = [
       title: "Norwegian barista champion 2004",
       img: "img/wendelboe.png",
       video:
-        "https://youtu.be/wGZ3VdCJvu0",
+        "https://www.youtube.com/embed/wGZ3VdCJvu0",
       text:
         "This AeroPress recipe is exactly what they use in the Tim Wendelboe cafe in Oslo, Norway.",
     },
@@ -25,7 +25,7 @@ const recipes = [
       title: "Head Barista at Maxi Coffee Shop",
       img: "img/barbedouce.jpg",
       video:
-        "https://youtu.be/lwOgQEELcrI",
+        "https://www.youtube.com/embed/lwOgQEELcrI",
       text:
         "This is Raphael's personal AeroPress recipe for most mornings' coffee routine. He uses a double filter for this recipe",
     },
@@ -35,7 +35,7 @@ const recipes = [
         title: "World Brewers Cup 2016 Champion",
         img: "img/kasuya.png",
         video:
-          "https://www.instagram.com/tv/CORkSoaiNoO/?igshid=1xiq2ov3mpxo2",
+          "https://www.instagram.com/tv/CORkSoaiNoO/",
         text:
           "This AeroPress recipe is also a great option to make a larger volume of coffee.",
       },
@@ -45,7 +45,7 @@ const recipes = [
         title: "Best Specialty Coffee Roaster 2019",
         img: "img/rueller.png",
         video:
-          "https://youtu.be/RO2jjz_1fBI",
+          "https://www.youtube.com/embed/RO2jjz_1fBI",
         text:
           "This is the AeroPress recipe of The Barn Founder, Ralf Rueller. It aims for a juicy cup that has a creamy mouth feeling.",
       },
@@ -57,7 +57,7 @@ const recipes = [
   const recipeVideo = document.getElementById('video');
   const recipeDescription = document.getElementById('video_description');
   
-  const randomizeBtn = document.querySelectorAll('randomize');
+  const randomizeBtn = document.getElementById('randomize');
 
   let recipeIndex = 0;
   
@@ -73,5 +73,3 @@ const recipes = [
     recipeVideo.src = randomRecipe.video;
     recipeDescription.textContent = randomRecipe.text
   }
-
-  randomizeBtn.addEventListener('click', showRecipe());

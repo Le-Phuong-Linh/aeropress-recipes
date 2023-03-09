@@ -6,17 +6,22 @@
 }
 
 body {
-    background-image: url(./img/background-img.jpg);
+    background-image: url(./img/wood-591631.jpg);
     background-size: 100%;
+    display: flex;
 }
 
-figcaption {
+.book {
+    
+}
+
+/* figcaption {
     position: absolute;
 }
 
 header {
     display: flex;
-    font-family: 'Blinker', sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     letter-spacing: 0.2rem;
     font-size: large;
     width: fit-content;
@@ -32,7 +37,7 @@ header {
     padding: 1.5rem 3rem;
     justify-content: center;
     align-items: center;
-    border-radius: 30%;
+    border-radius: 20px;
 }
 
 .aeropress-title {
@@ -53,13 +58,13 @@ header {
 
 main {
     display: grid;
-    grid-template-columns: 2fr 3fr;
+    grid-template-columns: 3fr 3fr;
     column-gap: 2rem;
     margin-top: 4rem;
     margin: auto auto;
-    font-family: 'Blinker', sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 50;
-    min-width: 1400px;
+    min-width: 1200px;
 }
 
 a {
@@ -79,7 +84,7 @@ a {
     height: 300px;
     border-radius: 50%;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 2px;
 }
 
 .photo-container:hover {
@@ -113,7 +118,7 @@ a {
     color: white;
     text-align: center;
     width: 540px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0.5rem;
     background-color: #454545;
     padding: 10px;
@@ -125,13 +130,13 @@ a {
     background-color: #EA4C89;
     color: white;
     border: none;
-    width: 200px;
-    height: 100px;
-    font-size: 22px;
+    width: 170px;
+    height: 60px;
+    font-size: 20px;
     margin-left: 150px;
 }
 
 .try:hover {
     transform: scale(0.9);
     cursor: pointer;
-}
+} */
