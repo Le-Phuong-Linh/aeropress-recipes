@@ -19,7 +19,6 @@ body {
 .book {
     display: flex;
     align-items: center;
-    cursor: pointer;
 }
 
 .book:hover .cover {
@@ -144,4 +143,5 @@ button:hover {
     background-color: paleturquoise;
     width: 150px;
     margin-left: 170px;
+    cursor: pointer;
 }

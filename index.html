@@ -14,59 +14,6 @@
     />
   </head>
   <body>
-
-    <!-- <header>
-      <h1 id="title">
-        Get Your<button class="aeropress-title randomize" onclick="showRecipe()"><u>Aeropress</u></button>Recipe
-        for Today
-      </h1>
-    </header>
-    </div>
-
-    <main>
-      <div class="column left">
-        <div class="barista">
-          <a
-              id="barista-link"
-              href="https://en.wikipedia.org/wiki/James_Hoffmann"
-            >
-            <div class="photo-container">
-              <img
-              id="barista-photo"
-              src="https://images.squarespace-cdn.com/content/v1/5d39c0ab87164d000167b2e2/1600945711706-RICUCBD9HQ9PEWESXJ8E/_DSC4757.jpg"
-            />
-            </div>
-
-            <h3 id="barista-name">James Hoffmann</h3>
-            <p id="barista-title">World Barista Champion 2007</p>
-          </a>
-        </div>
-      </div>
-
-      <div class="column right">
-        <div>
-          <iframe id="video"
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/mazSs3E_cwY"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen
-          ></iframe>
-        </div>
-      <div class="text-background">
-        <div id="video_description">
-          Use water that is pretty much right off the boil. Use a grind that is
-          slightly coarser than espresso, but finer than drip (James describes it
-          as between powdered sugar and salt).
-        </div>
-      </div>
-      </main>
-      <button class="try" onclick="showRecipe()">Try the Recipe!</button> -->
-
-      <!-- ------------------NEW DESIGN------------------- -->
-
       <div class="book">
         <div class="cover">
           The Coffee Recipes Book
@@ -106,7 +53,7 @@
         </div>
         
         <div class="page second-to-last">
-          <h3 id="name">James Hoffmann</h3>
+          <h3 id="barista-name">James Hoffmann</h3>
           <iframe id="video"
           width="450"
           height="250"
@@ -116,16 +63,17 @@
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowfullscreen
         ></iframe>
-        <p id="text">Use water that is pretty much right off the boil. Use a grind that is slightly coarser than espresso, but finer than drip (James describes it as between powdered sugar and salt).</p>
+        <p id="video_description">Use water that is pretty much right off the boil. Use a grind that is slightly coarser than espresso, but finer than drip (James describes it as between powdered sugar and salt).</p>
         </div>
         <div class="last-page">
-          <img src="img/hoffmann.png" />
-          <h3 id="title">World Barista Champion 2007</h3>
-          <button><h3>Shuffle Recipe</h3></button>
+          <img id="barista-photo" src="img/hoffmann.png" />
+          <h3 id="barista-title">World Barista Champion 2007</h3>
+          <button onclick="showRecipe()"><h3>Shuffle Recipe</h3></button>
         </div>
         <div class="back-cover"></div>
       </div>
       
     <script src="app.js"></script>
+    <script src="recipes.js"></script>
   </body>
 </html>
